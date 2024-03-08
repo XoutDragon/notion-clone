@@ -7,7 +7,7 @@ import { useMutation, useQuery } from 'convex/react';
 import { useParams, useRouter } from 'next/navigation';
 import { Id } from '@/convex/_generated/dataModel';
 import { toast } from 'sonner';
-import { Spinner } from '@/components/spinners';
+import { Spinner } from '@/components/spinner';
 import { Search, Trash, Undo } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { ConfirmModal } from '../../../components/modals/confirm-modal';
